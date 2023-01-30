@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F2F2F2;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul>li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1740px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-top: 33px;
+    margin-bottom: 40px;
+    margin-left: 96px;
+    margin-right: 600px;
+}
+.nav {
+}
+.nav__list {
+    display: flex;
+}
+.nav__item {
+    margin-right: 80px;
+}
+.nav__list:last-child {
+    margin-right: 70px;
+}
+.nav__link {
+    color: #868686;
+}
+.btn {
+    width: 220px;
+    height: 65px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    background: linear-gradient(323.15deg, #2262B9 -116.82%, #2AB7FA 149.41%);
+    color: white;
+    border: 0;
+    text-align: center;
+    border-radius: 45px;
+}
+.container {
+}
+.hero__img-wrap {
+    width: 1281px;
+    height: 706px;
+    padding: 117px 0px 320px 319px;
+}
+.hero__img {
+}
+.hero__content {
+    padding: 0px 0px 320px 319px;
+    margin: 0 auto;
+}
+.hero__title {
+    width: 1171px;
+    height: 114px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 94px;
+    line-height: 114px;
+    text-align: center;
+    color: #404041;
+}
+.hero__desc {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.445833px;
+    color: #868686;
+}
+
+.tolik {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #3E2768;
+    letter-spacing: 1.495px;
+}
+.tolik2 {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    color: #3E2768;
+    letter-spacing: 1.495px;
+}
